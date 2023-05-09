@@ -19,7 +19,17 @@ const showAlert= (message,type)=>{
     setAlert(null)
   },1000)
 }
+// const removeClassList = ()=>{
+//   document.body.classList.remove('bg-primary')
+//   document.body.classList.remove('bg-danger')
+//   document.body.classList.remove('bg-primary')
+//   document.body.classList.remove('bg-light')
+//   document.body.classList.remove('bg-dark')
+// }
 const toggleMode=()=>{
+  // removeClassList()
+  // document.body.classList.add('bg-'+cls)
+  
   if(mode === 'light'){
     setmode('dark')
    document.body.style.backgroundColor='black'
