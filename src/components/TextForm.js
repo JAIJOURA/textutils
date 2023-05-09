@@ -44,10 +44,10 @@ export default function TextForm(props) {
     color:props.mode ==='light'?'unset':'white'
 }} onChange={handleOnChange} id="text-area" rows="10"></textarea>
 </div>
-<button className="btn btn-primary" onClick={handleUpClick} >Convert the text in upperCase</button>
-<button className="btn btn-dark mx-4" onClick={handleLowClick} >Convert the text in lowerCase</button>
-<button className="btn btn-success " onClick={handleCopy}>{copyText}</button>
-<button className="btn btn-danger mx-4" onClick={handleClear}>Clear Text</button>
+<button className="btn btn-primary mx-2 my-2" onClick={handleUpClick} >Convert the text in upperCase</button>
+<button className="btn btn-dark mx-2 my-2" onClick={handleLowClick} >Convert the text in lowerCase</button>
+<button className="btn btn-success mx-2 my-2 " onClick={handleCopy}>{copyText}</button>
+<button className="btn btn-danger mx-2 my-2" onClick={handleClear}>Clear Text</button>
 </div>
 <div className="container">
 <h3>Text Summary</h3>
