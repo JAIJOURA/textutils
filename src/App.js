@@ -39,7 +39,7 @@ const toggleMode=()=>{
     {/* <BrowserRouter> */}
 <Navbar mode ={mode} toggleMode = {toggleMode} />
 
-<div className="container my-5">
+<div className="container">
   <Alert alert={alert}/>
 {/* <Routes> */}
   {/* <Route path='/about' element={<About mode ={mode}/>} /> */}
